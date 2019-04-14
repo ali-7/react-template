@@ -12,7 +12,7 @@ class App extends Component {
           this template for react-app with Eslint, travis and deployment
           configration.
         </p>
-      </div
+      </div>
     );
   }
 }
