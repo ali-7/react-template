@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client:init": "cd client && npm i",
+    "client:build": "cd client && npm run build",
+    "test": "cd client && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ali-7/react-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ali-7/react-template/issues"
+  },
+  "homepage": "https://github.com/ali-7/react-template#readme"
+}
