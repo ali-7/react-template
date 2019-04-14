@@ -5,7 +5,15 @@ class App extends Component {
   state = {};
 
   render() {
-    return <h1>react-template</h1>;
+    return (
+      <div>
+        <h1>react-template</h1>
+        <p>
+          this template for react-app with Eslint, travis and deployment
+          configration.
+        </p>
+      </div>
+    );
   }
 }
 
