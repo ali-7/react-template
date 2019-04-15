@@ -9,7 +9,7 @@
     "test": "cd client && npm test",
     "coverage": "cd client && npm run coverage:client",
     "client": "cd client && npm run start",
-    "start": "node server/app.js",
+    "start": "NODE_ENV=production node server/app.js",
     "heroku-postbuild": "npm run client:init && npm run build"
   },
   "repository": {
