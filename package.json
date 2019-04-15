@@ -10,7 +10,7 @@
     "coverage": "cd client && npm run coverage:client",
     "client": "cd client && npm run start",
     "start": "NODE_ENV=production node server/app.js",
-    "heroku-postbuild": "npm run client:init && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
