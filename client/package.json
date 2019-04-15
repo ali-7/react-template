@@ -36,6 +36,7 @@
     "prettier": "^1.17.0"
   },
   "jest": {
+    "coverageDirectory": "./coverage/",
     "collectCoverageFrom": [
       "!src/serviceWorker.js",
       "!src/index.js",
