@@ -22,4 +22,5 @@ on:
 
 after_success:
   - npm run coverage
+  - bash <(curl -s https://codecov.io/bash)
   
