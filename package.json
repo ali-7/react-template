@@ -10,7 +10,8 @@
     "coverage": "cd client && npm run coverage:client",
     "client": "cd client && npm run start",
     "start": "NODE_ENV=production node server/app.js",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "codecov": "codecov"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,8 @@
   "dependencies": {
     "express": "^4.16.4",
     "express-favicon": "^2.0.1"
+  },
+  "devDependencies": {
+    "codecov": "^3.3.0"
   }
 }
