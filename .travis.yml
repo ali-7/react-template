@@ -1,7 +1,7 @@
 language: node_js
 
 node_js:
-  - 'stable'
+  - 'lts/*'
 
 cache:
   directories:
@@ -12,7 +12,6 @@ install:
 
 before_script:
   - npm run client:build
-  - sleep 15
 
 script:
   - npm test
@@ -23,4 +22,3 @@ on:
 after_success:
   - npm run coverage
   - bash <(curl -s https://codecov.io/bash)
-  
